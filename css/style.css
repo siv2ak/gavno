@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=Corinthia:wght@700&display=swap');
+
+h1{
+    font-size: 1.5em;
+    -webkit-text-stroke-width: 0.5px;
+    -webkit-text-stroke-color: #ffffffde;
+    font-family: 'Corinthia', cursive;
+    margin: 0;
+    text-align: center;
+}
+/* 
+навигация верх
+*/
+
+.header{
+    background-color: rgba(255, 255, 255, 0.308);
+    border-radius: 2px;
+}
+/* 
+общие настройки для ссылок 
+*/
+a{
+    color: rgb(159, 252, 252);
+    text-decoration: none;   
+}
+
+a:link{
+    color: #000;
+}
+
+ul{
+    text-align: center;
+    margin: 40px 0 0 0;
+}
+
+li{
+    
+    padding: 5px;
+    font-size: 1.4em;
+    display: inline;
+    margin-left: 4em;
+    background-color: rgb(133, 125, 115);
+    border: 1px solid aliceblue ;
+    box-shadow: 1px 1px 5px black;
+    background-color: transparent;
+}
+
+li:hover{
+    background-color: rgba(114, 114, 114, 0.493);
+}
+
+
+/* 
+Нечто
+*/
+.nechto span{
+    position: absolute;
+    display: none;
+}
+
+.nechto:hover 
+.se{
+    display: block;
+    position: absolute;
+    right: 10%;
+}
+
+
+
+/* 
+Поеск
+*/
+.search{
+    padding-top:4%;
+}
+.search span{
+    padding: 5px;
+    color: white;
+    /* background-color: rgb(0, 0, 0); */
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 5px;
+
+}
+input{
+    margin-left: 5px;
+    width: 50%;
+}
+
+
+/* 
+Середина
+*/
+
+.menu{
+    margin: 10px auto;
+    padding: 10px;
+    background-color: rgba(255, 255, 255, 0.308);
+}
+.menu img {
+    /* display: block; */
+    max-width: 50%;
+    float:left;
+    margin: 0 5px;
+
+    }
+
+
+.foot p{
+    text-align: center;
+}
+
+@media (max-width: 700px ) {
+    ul{
+        padding: 0;
+        text-align: center;
+        margin: 0;
+    }
+
+    li{
+        /* display: block; */
+        padding: 0;
+        margin-left: 0.5em;
+     
+    }
+}
+
+@media (max-width: 350px ) {
+        ul{
+            padding: 0;
+            text-align: left;
+            margin: 0;
+        }
+    
+        li{
+            display: block; 
+            padding: 0;
+            margin-left: 0.5em;
+    }
+}
+    

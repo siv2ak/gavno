@@ -1,0 +1,198 @@
+*{
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+body{
+    background: url(https://xn--80aahvkuapc1be.xn--p1ai/800/600/https/funart.pro/uploads/posts/2020-04/1587216240_14-p-zadnie-foni-dlya-saitov-53.jpg);
+    background-size: 130%; 
+}
+/* 
+Контейнер
+*/
+.cont{
+    margin: 10px auto 0 ;
+    padding: 10px 15px 0 15px;
+    background:rgba(255, 255, 255, 0.384);
+    width: 90%;
+    outline: 1px solid rgba(255, 255, 255, 0.493)
+    
+    
+}
+/* 
+сдвиг влево
+*/
+.k{
+    float: left;
+    padding:5px;
+   /* outline: 1px solid black ; */
+}
+
+.row {
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
+p .info{
+    text-align: left;
+}
+
+
+.row:after {
+    content: " ";
+    display: block;
+    clear: both;
+}
+
+.k12 {
+    width: 100%;
+}
+.k11 {
+    width: 91.66666667%;
+}
+.k10 {
+    width: 83.33333333%;
+}
+.k9 {
+    width: 75%;
+}
+.k8 {
+    width: 66.66666667%;
+}
+.k7 {
+    width: 58.33333333%;
+}
+.k6 {
+    width: 50%;
+}
+.k5 {
+    width: 41.66666667%;
+}
+.k4 {
+    width: 33.33333333%;
+}
+.k3 {
+    width: 25%;
+}
+.k2 {
+    width: 16.66666667%;
+}
+.k1 {
+    width: 8.33333333%;
+}
+
+@media (max-width: 1024px )  {
+    .kl12 {
+        width: 100%;
+    }
+    .kl11 {
+        width: 91.66666667%;
+    }
+    .kl10 {
+        width: 83.33333333%;
+    }
+    .kl9 {
+        width: 75%;
+    }
+    .kl8 {
+        width: 66.66666667%;
+    }
+    .kl7 {
+        width: 58.33333333%;
+    }
+    .kl6 {
+        width: 50%;
+    }
+    .kl5 {
+        width: 41.66666667%;
+    }
+    .kl4 {
+        width: 33.33333333%;
+    }
+    .kl3 {
+        width: 25%;
+    }
+    .kl2 {
+        width: 16.66666667%;
+    }
+    .kl1 {
+        width: 8.33333333%;
+    }
+}
+
+@media (max-width: 807px )  {
+    .km12 {
+        width: 100%;
+    }
+    .km11 {
+        width: 91.66666667%;
+    }
+    .km10 {
+        width: 83.33333333%;
+    }
+    .km9 {
+        width: 75%;
+    }
+    .km8 {
+        width: 66.66666667%;
+    }
+    .km7 {
+        width: 58.33333333%;
+    }
+    .km6 {
+        width: 50%;
+    }
+    .km5 {
+        width: 41.66666667%;
+    }
+    .km4 {
+        width: 33.33333333%;
+    }
+    .km3 {
+        width: 25%;
+    }
+    .km2 {
+        width: 16.66666667%;
+    }
+    .km1 {
+        width: 8.33333333%;
+    }
+}
+
+@media (max-width: 807px )  {
+    .kmm12 {
+        width: 100%;
+    }
+    .kmm11 {
+        width: 91.66666667%;
+    }
+    .kmm10 {
+        width: 83.33333333%;
+    }
+    .kmm9 {
+        width: 75%;
+    }
+    .kmm8 {
+        width: 66.66666667%;
+    }
+    .kmm7 {
+        width: 58.33333333%;
+    }
+    .kmm6 {
+        width: 50%;
+    }
+    .kmm5 {
+        width: 41.66666667%;
+    }
+    .kmm4 {
+        width: 33.33333333%;
+    }
+    .kmm3 {
+        width: 25%;
+    }
+    .kmm2 {
+        width: 16.66666667%;
+    }
+    .kmm1 {
+        width: 8.33333333%;
+    }
+}
