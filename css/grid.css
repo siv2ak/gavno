@@ -2,22 +2,11 @@
     box-sizing: border-box;
     font-family: sans-serif;
 }
-body{
-    background: url(https://xn--80aahvkuapc1be.xn--p1ai/800/600/https/funart.pro/uploads/posts/2020-04/1587216240_14-p-zadnie-foni-dlya-saitov-53.jpg);
-    background-size: 130%; 
-}
+
 /* 
 Контейнер
 */
-.cont{
-    margin: 10px auto 0 ;
-    padding: 10px 15px 0 15px;
-    background:rgba(255, 255, 255, 0.384);
-    width: 90%;
-    outline: 1px solid rgba(255, 255, 255, 0.493)
-    
-    
-}
+
 /* 
 сдвиг влево
 */
